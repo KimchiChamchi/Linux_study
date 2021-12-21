@@ -16,7 +16,7 @@ fi
 if [ -e /home/leessangmin/date_log/$dateFile ]; then
     # 아무것도 하지 않기
     echo "이미 파일이 있네요. 아무것도 안 할게요"
-    # 없으면
+# 없으면
 else
     echo "현재 날짜와 시간을 기록한 파일을 생성합니다"
     # 해당경로에 파일 만들고
